@@ -1,4 +1,5 @@
 <script lang="ts">
+    import TrustedBy from '$lib/components/TrustedBy.svelte';
     import { _, isLoading } from 'svelte-i18n';
 
 </script>
@@ -25,8 +26,17 @@
             {$_('TrustedBy.title')}
         </h2>
     </div>
-
-    <!-- <Members eventsAndIds={eventsUserIds} /> -->
+    <div class="photos">
+        <figure>
+        <img src="./images/company/Emurgo.jpeg" alt="background" />
+    </figure>
+    <figure>
+        <img src="./images/company/Holdex.svg" alt="background" />
+    </figure>
+    <figure>   
+        <img src="./images/company/Lumiere.png" alt="background" />
+    </figure>
+    </div>
 </div>
 <!-- <div class="proseContainer">
     <h2>{$_('nostrHkMembers.replyThread')}</h2>

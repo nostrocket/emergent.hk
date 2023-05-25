@@ -14,6 +14,8 @@ declare global {
             event: NDKEvent;
             replies: ThreadedEvent[];
         }
+
+
         // interface Error {}
         // interface Locals {}
         // interface PageData {}
