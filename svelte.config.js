@@ -10,12 +10,12 @@ const config = {
     preprocess: vitePreprocess(),
     kit: {
         adapter: adapter({
-            pages: "build",
-            assets: "build"
+            pages: "public",
+            assets: "public"
         }),
         paths: {
             // change below to your repo name
-            base: dev ? "" : process.env.BASE_PATH,
+            base:"",
         },
         // hydrate the <div id="svelte"> element in src/app.html
 
