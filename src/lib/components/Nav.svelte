@@ -25,7 +25,7 @@
     }
     function sendEmail() {
     const email = 'contact@emergent.hk';
-    const subject = '';
+    const subject = ' ';
     const body = '';
 
     const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
