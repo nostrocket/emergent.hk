@@ -12,7 +12,7 @@
         { text: 'Home', url: '/' },
         { text: 'Services', url: '/services' },
         { text: 'Solutions', url: '/solutions' },
-        { text: 'Team', url: '/' },
+        { text: 'Team', url: '/team' },
         { text: 'Media', url: 'https://nostrovia.org/' }
     ];
 

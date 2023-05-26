@@ -6,15 +6,7 @@
 </script>
 
 <div class="proseContainer">
-    {#if !$isLoading}
-
-
-        <h2>{$_('Solution.title')}</h2>
-        <p>{$_('Solution.p1')}</p>
-
-
-    
-    {/if}
+    <div class="proseContainer">Coming soon... 🙈</div>
 </div>
 
     <CompanyCard/>
