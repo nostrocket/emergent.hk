@@ -46,5 +46,6 @@
 {:then blockTime}
     <Footer {blockTime} />
 {:catch error}
-    <div class="proseContainer">Something went wrong... 🙈</div>
+    <!-- <div class="proseContainer">Something went wrong... 🙈</div> -->
+    <div class="proseContainer">💜</div>
 {/await}

@@ -1,6 +1,15 @@
 <script>
      import { _, isLoading } from 'svelte-i18n';
+     import { base } from "$app/paths";
+     import fs from 'fs';
+
+    const images = ["/images/company/Emurgo.jpeg","/images/company/Holdex.svg","/images/company/Lumiere.png"]
+
+
      </script>
+
+
+
 
 <div class="bg-purple-900 py-8 mt-16">
     <div class="proseContainer !mt-0">
@@ -9,14 +18,10 @@
         </h2>
     </div>
     <div class="photos">
-        <figure>
-        <img src="./images/company/Emurgo.jpeg" alt="background" />
-    </figure>
-    <figure>
-        <img src="./images/company/Holdex.svg" alt="background" />
-    </figure>
-    <figure>   
-        <img src="./images/company/Lumiere.png" alt="background" />
-    </figure>
-    </div>
+        {#each images as image}
+          <figure>
+            <img src={base}{image} alt="background" />
+          </figure>
+        {/each}
+      </div>
 </div>

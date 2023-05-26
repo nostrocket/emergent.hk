@@ -15,7 +15,7 @@ const config = {
         }),
         paths: {
             // change below to your repo name
-            base:"",
+            base: dev ? '' : process.env.BASE_PATH,
         },
         // hydrate the <div id="svelte"> element in src/app.html
 
