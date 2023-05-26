@@ -1,5 +1,6 @@
 <script lang="ts">
     import { _, isLoading } from 'svelte-i18n';
+    import CompanyCard from '$lib/components/CompanyCard.svelte';
 
 </script>
 
@@ -14,15 +15,11 @@
     
     {/if}
 </div>
-<div class="bg-purple-900 py-8 mt-16">
-    <div class="proseContainer !mt-0">
-        <h2 class="!mt-0">
-            {$_('TrustedBy.title')}
-        </h2>
-    </div>
+
+    <CompanyCard/>
 
     <!-- <Members eventsAndIds={eventsUserIds} /> -->
-</div>
+
 <!-- <div class="proseContainer">
     <h2>{$_('nostrHkMembers.replyThread')}</h2>
     <p>{@html $_('join.p1')}</p>
