@@ -2,8 +2,9 @@
 <html lang="en">
     <script>
         // import { paths } from '$app/paths';
-        import {base } from '$app/paths';
-        console.logs(base,"asd");
+        import {base} from '$app/paths';
+    
+        document.getElementById("manifest").href = base + "/site.webmanifest";
         </script>
     <head>
         <meta charset="utf-8" />
@@ -18,19 +19,21 @@
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         <meta name="viewport" content="width=device-width" />
         <meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout.fedc70a8.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.39e91c49.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.5964d12f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.3499373f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.c17d4daa.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.86cc9738.js">
+		<link href="./_app/immutable/assets/_layout.99da65ef.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.54c001f6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.fc03b57e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.f5767654.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.3e4ed4ca.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.8d8648d7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.36788ccb.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.41c905a7.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.256a17bb.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/runtime.esm.03c21595.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/i18n.ba3eae77.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.00ac65a8.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.8d12ac50.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/services-page.svelte.9e00424a.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.f5ef80d9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/runtime.esm.a3af215f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/i18n.f4228e88.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.932cb150.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.d4e967be.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/services-page.svelte.5747af2a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CompanyCard.2fdd063e.js">
         <title>emergent hk</title>
     </head>
     <body
@@ -47,7 +50,7 @@
     <nav class="z-30 hidden md:flex flex-row gap-6 sticky top-0 items-center justify-center p-8 bg-black/80 text-xl"><a href="/" class="text-xl font-medium text-orange-500 border-orange-500">Home
             </a><a href="/services" class="text-xl font-medium text-orange-500 border-orange-500">Services
             </a><a href="/solutions" class="text-xl font-medium text-orange-500 border-orange-500">Solutions
-            </a><a href="/" class="text-xl font-medium text-orange-500 border-orange-500">Team
+            </a><a href="/team" class="text-xl font-medium text-orange-500 border-orange-500">Team
             </a><a href="https://nostrovia.org/" class="text-xl font-medium text-orange-500 border-orange-500">Media
             </a>
         <a href="/" class="text-xl font-medium text-orange-500 border-orange-500">Contact</a>
@@ -58,11 +61,29 @@
     
     <nav class="z-30 flex md:hidden flex-col sticky w-full top-0 items-center justify-center p-4 bg-black/90"><button class="text-orange-500"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"></path></svg></button>
         </nav>
-<div class="proseContainer"><h2>Services Provided</h2>
-        <p>EMERGENT.HK is a global technology company providing nostr/web3/blockchain solutions for developers, startups, enterprises, and governments.</p></div>
-<div class="bg-purple-900 py-8 mt-16"><div class="proseContainer !mt-0"><h2 class="!mt-0">Trusted By</h2></div>
+<div class="bg-purple-900 py-8 mt-0"><div class="proseContainer"><h2>Services Provided</h2>
+        <p>EMERGENT.HK is a global technology company providing nostr/web3/blockchain solutions for developers, startups, enterprises, and governments.</p></div></div>
 
-    </div>
+
+<div class="proseContainer"><h2>Blockchain Development and Consulting</h2>
+        <p>We develop blockchain and smart contracts solutions for organizations of all sizes. We have experience working with Bitcoin, Ethereum, Cardano, among others.</p>
+        <p>We are passionate about taking projects from ideas to production. This could involve technical whitepaper creation which could include competitive research to then ideate the entire solution for web and mobile — for example a dApp using Solidity in Ethereum. We also can take care of security best practices and devops deployment to AWS / Google Cloud for hybrid solutions.</p></div>
+
+<div class="proseContainer"><h2>Nostr Development and Consulting</h2>
+        <p>Nostr is a permissionless open standard like TCP/IP and HTTP. Anyone can build on it without asking for permission.</p>
+        <p>Nostr + Bitcoin + Lightning is an organic form of "Web3" that has a chance of being around in 5-10 years.</p> 
+        <p>We are a team working on Nostr from early stage. We can help you build your Nostr app, or help you integrate Nostr into your existing app.</p></div>
+
+<div class="proseContainer"><h2>Education</h2>
+        <p>With the fast increasing user amount and big demand of companies, we are looking for more people to join us and help us to build the future of the nostr. Due to a lack of professional educational content, it is offen difficult for companies to find suitable candidates.</p>
+        <p>Our education units serve to meet this huge demand with tailored online education resources like podcast and content creation for prospective developers &amp; career professionals, where they can learn to build on top of nostr protocal and enhance career opportunities.</p></div>
+    <div class="bg-purple-900 py-8 mt-16"><div class="proseContainer !mt-0"><h2 class="!mt-0">Trusted By</h2></div>
+    <div class="photos"><figure><img src="./images/company/Emurgo.jpeg" alt="background"></figure>
+    <figure><img src="./images/company/Holdex.svg" alt="background"></figure>
+    <figure><img src="./images/company/Lumiere.png" alt="background"></figure></div></div>
+
+    
+
 
 <div class="px-2 md:mx-10 xl:mx-64 mt-16"></div>
 
@@ -74,7 +95,7 @@
 			
 			<script>
 				{
-					__sveltekit_17r8f7i = {
+					__sveltekit_1dt7xsh = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -84,8 +105,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.39e91c49.js"),
-						import("./_app/immutable/entry/app.86cc9738.js")
+						import("./_app/immutable/entry/start.54c001f6.js"),
+						import("./_app/immutable/entry/app.36788ccb.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3],

@@ -5,16 +5,16 @@
     import LocaleSwitcher from '$lib/components/LocaleSwitcher.svelte';
     import { _, locale, isLoading } from 'svelte-i18n';
     import { setupI18n } from '$lib/config/i18n';
-
+    import { base } from "$app/paths";
     let mobileNavOpen = false;
 
     const navLinks = [
         { text: 'Home', url: '/' },
         { text: 'Services', url: '/services' },
         { text: 'Solutions', url: '/solutions' },
-        { text: 'Team', url: '/team' },
-        { text: 'Media', url: 'https://nostrovia.org/' }
+        { text: 'Team', url: '/team' }
     ];
+
 
     function toggleMobileNav() {
         if (mobileNavOpen) {
@@ -44,11 +44,15 @@
         class="z-30 hidden md:flex flex-row gap-6 sticky top-0 items-center justify-center p-8 bg-black/80 text-xl"
     >
         {#each navLinks as navLink}
-            <a href={navLink.url} class="text-xl font-medium text-orange-500 border-orange-500">
+            
+            <a href={base}{navLink.url} class="text-xl font-medium text-orange-500 border-orange-500">
                 {navLink.text}
             </a>
         {/each}
-        <a href="/" class="text-xl font-medium text-orange-500 border-orange-500" on:click={sendEmail}>Contact</a>
+        <!-- <a href="https://nostrovia.org/" class="text-xl font-medium text-orange-500 border-orange-500">
+            Media
+        </a> -->
+        <a href={base} class="text-xl font-medium text-orange-500 border-orange-500" on:click={sendEmail}>Contact</a>
         <LocaleSwitcher value={$locale} on:locale-changed={(e) => updateLocale(e.detail)} />
     </nav>
 
