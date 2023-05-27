@@ -1,15 +1,15 @@
 {
     "whatIs": {
         "title": "What is emergent",
-        "p1": "EMERGENT.HK is a global technology company providing nostr/web3/blockchain solutions for developers, startups, enterprises, and governments.",
-        "p3": "Nostr is designed for simplicity and enables people to participate in a decentralized social network. It can not only replace twitter/facebook/instagram/spotify/etc but can also replace companies that provide infomation exchange services."
+        "p1": "EMERGENT.HK is a global technology company providing impactful nostr/web3/blockchain solutions for developers, startups, enterprises, and governments.",
+        "p2": "We are a team of developers, designers, and marketers who are passionate about building the future of the internet. We are based in Hong Kong, but our team is distributed around the world."
     },
-    "nostrVsWeb3": {
+    "whatWeDo": {
         "title": "What we do",
-        "p1": "Hong Kong is currently pursuing Web3.",
-        "p2": "Nostr + Bitcoin + Lightning is an organic form of \"Web3\" that has a chance of being around in 5-10 years.",
-        "p3": "Nostr + Bitcoin + Lightning are networks and technologies that are discovered in response to real problems experienced by real people.",
-        "p4": "These networks are rapidly growing without a development team, without a marketing team, without leadership, and without any form of capital raise."
+        "p1": "Blockchain Consulting",
+        "p2": "Nostr Consulting",
+        "p3": "Digital Marketing",
+        "p4": "Education"
     },
     "TrustedBy": {
         "title": "Trusted By",
@@ -19,6 +19,36 @@
     "Service": {
         "title": "Services Provided",
         "p1": "EMERGENT.HK is a global technology company providing nostr/web3/blockchain solutions for developers, startups, enterprises, and governments."
+    },
+
+    "Blockchain": {
+        "title": "Blockchain Development and Consulting",
+        "p1": "We develop blockchain and smart contracts solutions for organizations of all sizes. We have experience working with Bitcoin, Ethereum, Cardano, among others.",
+        "p2": "We are passionate about taking projects from ideas to production. This could involve technical whitepaper creation which could include competitive research to then ideate the entire solution for web and mobile — for example a dApp using Solidity in Ethereum. We also can take care of security best practices and devops deployment to AWS / Google Cloud for hybrid solutions."
+
+    },
+    "Nostr": {
+        "title": "Nostr Development and Consulting",
+        "p1": "Nostr is a permissionless open standard like TCP/IP and HTTP. Anyone can build on it without asking for permission.",
+        "p2": "Nostr + Bitcoin + Lightning is an organic form of \"Web3\" that has a chance of being around in 5-10 years.",
+        "p3": "We are a team working on Nostr from early stage. We can help you build your Nostr app, or help you integrate Nostr into your existing app."
+    
+
+    },
+    "education": {
+        "title": "Education",
+        "p1": "With the fast increasing user amount and big demand of companies, we are looking for more people to join us and help us to build the future of the nostr. Due to a lack of professional educational content, it is offen difficult for companies to find suitable candidates.",
+        "p2": "Our education units serve to meet this huge demand with tailored online education resources like podcast and content creation for prospective developers & career professionals, where they can learn to build on top of nostr protocal and enhance career opportunities."
+    
+
+    },
+    "digitalMarketing": {
+        "title": "Nostr Development and Consulting",
+        "p1": "Nostr is a permissionless open standard like TCP/IP and HTTP. Anyone can build on it without asking for permission.",
+        "p2": "Nostr + Bitcoin + Lightning is an organic form of \"Web3\" that has a chance of being around in 5-10 years.",
+        "p3": "We are a team working on Nostr from early stage. We can help you build your Nostr app, or help you integrate Nostr into your existing app."
+    
+
     },
     "Solution": {
         "title": "project1",
