@@ -35,7 +35,7 @@
 		font-black spacing-tight
         absolute top-20 md:top-48 left-1/2 -translate-x-1/2"
     >
-        >emergent.hk
+        Emergent Solutions
     </h1>
 </div>
 <Nav />
