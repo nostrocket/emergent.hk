@@ -19,7 +19,7 @@
     </div>
     <div class="photos">
         {#each images as image}
-          <figure>
+          <figure class="logo">
             <img src={base}{image} alt="background" />
           </figure>
         {/each}

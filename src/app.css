@@ -28,6 +28,13 @@ a,
     display: flex;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    margin: 0;
 }
 
 figure, img {
